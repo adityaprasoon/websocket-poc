@@ -1,7 +1,7 @@
 # websocket-poc
 
 This is small web application that showcases an usecase for synchorinzing the cursor position between serveral clients.
-This application uses NodeJS as the backend application which receives mouse cusror from connected clients and then broadcasts to all other connected clients.
+This application uses NodeJS as the backend application which receives mouse cursor from connected clients and then broadcasts to all other connected clients.
 
 ## How to run this POC
 1. Clone this repo locally.
@@ -11,4 +11,5 @@ This application uses NodeJS as the backend application which receives mouse cus
 5. Access the webpage at `localhost:8080`.
 6. Open the webpage on several tabs and move the mouse on one to see the correspoding change in other tabs.
 
-    
+## Recording in action
+![Screen recording of POC](./Screen%20Recording%202025-06-11%20at%2023.16.52.gif)
